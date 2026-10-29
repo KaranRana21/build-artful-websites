@@ -1,0 +1,24 @@
+name: Skill improvement
+description: Propose a clearer decision rule, design example, integration, or QA check.
+title: "[Enhancement] "
+labels: []
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Real scenario
+      description: What user problem or design limitation does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed guidance
+      description: Include tradeoffs and effects on accessibility, mobile, or performance.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or references
+      description: Public examples only; no private client information.
