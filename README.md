@@ -81,6 +81,24 @@ Examples are prompts and quality criteria, **not deployed client work or fabrica
 
 When present, skill coordinates `design-taste-frontend`, `emil-design-eng`, `find-animation-opportunities`, `animate`, `improve-animations`, `review-animations`, and applicable `gsap-*` skills. They are separate projects/tools; installation is optional and not implied.
 
+## Validate
+
+```bash
+python3 scripts/validate_skill.py
+```
+
+Checks required files, agent-skill frontmatter, and local Markdown links. [GitHub Actions](.github/workflows/validate-skill.yml) runs validator on pushes and pull requests. Structural validation cannot prove visual quality; test generated websites separately.
+
+## Roadmap and release process
+
+- [Public installer/agent compatibility test](https://github.com/KaranRana21/build-artful-websites/issues/1)
+- [Evidence-backed before/after website example](https://github.com/KaranRana21/build-artful-websites/issues/2)
+- [Release checklist](docs/RELEASE-PROCESS.md)
+- [Planned Codex maintainer workflows](docs/CODEX-MAINTENANCE.md)
+- [Honest adoption measurement](docs/ADOPTION.md)
+
+No independent installation or widespread adoption is claimed while those checks are open. Repository is usable as a public instruction package; first tagged release will follow verified installation.
+
 ## Maintain and contribute
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for changes, validation, and PR expectations. Report vulnerabilities via [SECURITY.md](SECURITY.md). Review releases/changelog for evolution.
