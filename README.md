@@ -1,6 +1,6 @@
 # Build Artful Websites
 
-**Open-source design-engineering skill for websites that feel authored—not AI-templated.**
+**Open-source design-engineering skill for websites that feel authored, not AI-templated.**
 
 Most AI website prompts ask for polish. Build Artful Websites specifies **how to make design decisions and verify them**: brand-specific creative direction, strong static composition, purposeful interaction/motion, mobile art direction, accessibility, performance, security, SEO, and production QA.
 
