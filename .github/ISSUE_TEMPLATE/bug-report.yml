@@ -1,0 +1,29 @@
+name: Bug or broken instruction
+description: Report incorrect guidance, broken installation, links, or incompatible agent behavior.
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include credentials, client-private data, or unpublished assets."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What failed, and what did you expect?
+      placeholder: "Describe observed behavior and expected behavior."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction and environment
+      description: "Agent, platform, installer version, command, relevant non-sensitive logs."
+    validations:
+      required: false
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: false
